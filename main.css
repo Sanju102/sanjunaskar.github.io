@@ -1,0 +1,60 @@
+.heading{
+    text-align: center;
+    min-height: 300px;
+    align-items: center;
+    margin-top: 10px;
+}
+body{
+    /* background: linear-gradient(155deg, rgb(41, 76, 55), rgb(95, 95, 227)); */
+    background-color: rgb(62, 76, 147);
+}
+.about{
+    display: relative;
+    padding: 20px;
+    color: rgb(68, 71, 74);
+    background-color: rgb(215, 223, 232);
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(68, 71, 74);
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(68, 71, 74);
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.social{
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    color: aliceblue;
+    list-style: none;
+}
+.skillsexperience{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.skillsexperience > div {
+    flex: 1 1 300px;    /* grow, shrink, and minimum width */
+    background-color: rgb(204, 215, 229);
+    padding: 20px; /* optional for spacing inside */
+    border-radius: 5px; /* optional for rounded corners */
+
+}
+.projects{
+    padding: 20px;
+    margin-top: 10px;
+}
+.project_title{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 5px;
+}
