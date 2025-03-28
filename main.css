@@ -56,13 +56,47 @@ p{
 .projects{
     padding: 20px;
     margin-top: 10px;
-    background-color: rgb(215, 223, 232)
+    background-color: rgb(215, 223, 232);
+    border-radius: 10px;
 }
 .project_title{
     text-transform: capitalize;
     text-align: center;
     margin-top: 5px;
 }
+.projects > div{
+    background-color: rgb(204, 215, 229);
+    padding: 20px;
+    border-radius: 10px;
+}
 section {
     scroll-margin-top: 80px;  /* adjust based on your navbar height */
 }
+.project > img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.project_btn{
+    text-align: center;
+    margin-top: 10px;
+}
+.about{
+    border-radius: 10px;
+}
+section:target::before {
+    content: "";
+    display: block;
+    height: 60px; /* Adjust for fixed navbar */
+    margin-top: -60px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link.active {
+    color: yellow !important; /* Change to your preferred color */
+}
+
