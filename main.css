@@ -23,6 +23,7 @@ h1{
 h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(68, 71, 74);
+    text-align: center;
 }
 h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -98,5 +99,37 @@ section:target::before {
 
 .navbar-nav .nav-link.active {
     color: yellow !important; /* Change to your preferred color */
+}
+.skills{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgb(215, 223, 232);
+    border-radius: 10px;
+    display: block;
+}
+.skill_bar{
+    display: flex; /* Changed from block to flex */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    width: 100%;
+    padding: 10px; /* Optional for spacing */
+}
+.skill_bar > img{
+    width: auto;
+    max-height: 150px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.soft_skills{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 10px; /* Adds space between items */
+    padding: 20px;
+}
+.soft_skills >li{
+    text-align: center;
+    flex: 1 1 400px;    /* grow, shrink, and minimum width */
 }
 
