@@ -24,6 +24,7 @@ h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(68, 71, 74);
     text-align: center;
+    
 }
 h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -62,8 +63,10 @@ p{
 }
 .project_title{
     text-transform: capitalize;
-    text-align: center;
     margin-top: 5px;
+}
+.project_title:hover{
+    color: rgb(29, 47, 161);
 }
 .projects > div{
     background-color: rgb(204, 215, 229);
@@ -77,6 +80,8 @@ section {
     width: 70%;
     display: block;
     margin: 0 auto;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
 }
 .project_btn{
     text-align: center;
@@ -131,5 +136,8 @@ section:target::before {
 .soft_skills >li{
     text-align: center;
     flex: 1 1 400px;    /* grow, shrink, and minimum width */
+}
+.project_title_a{
+    text-decoration: none;
 }
 
