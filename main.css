@@ -84,7 +84,6 @@ section {
     border-radius: 10px;
 }
 .project_btn{
-    text-align: center;
     margin-top: 10px;
 }
 .about{
@@ -139,5 +138,27 @@ section:target::before {
 }
 .project_title_a{
     text-decoration: none;
+}
+.project_content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project_content >div{
+    min-width: 300px;
+    width: 50%;
+}
+.project_content >div >img{
+    /* max-width: 30%; */
+    align-self: flex-end;
+    width: 80%;
+    min-width: 200px;
+    border-radius: 5px;
+}
+.project_image{
+padding-left: 40px;
+}
+.project >div{
+    border-bottom: 2px solid rgb(187, 187, 233);
+    padding: 20px;
 }
 
